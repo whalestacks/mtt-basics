@@ -146,12 +146,12 @@ border: 2px solid #fff !important;
 color: #fff;
 
 }
-.btn-primary:hover{
-background: #fb4f7a;
+.btn-primary:hover{ /* Right button */
+background: #5ca7e7;
 color: #fff;
 }
 .btn-secondary:hover {
-background:#fb4f7a;
+background:#5ca7e7;
 color: #020202;
 }
 .btn {
@@ -653,7 +653,7 @@ margin-bottom:45px;
     max-width: 320px;
 	position: absolute;
 	right: 0;
-	margin: auto auto 80px; 
+	margin: auto auto 80px;
 
 }
 #aboutUs {
