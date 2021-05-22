@@ -1004,6 +1004,7 @@ footer {
 }
 
 @media (min-width: 768px) {
+	
 .header .navbar-brand {
 	padding-left: 0;
 }
@@ -1020,6 +1021,7 @@ footer {
 }
 
 @media (max-width: 768px) {
+	.responsive-headline {display: none;}
 .banner-container {
 	background-size: contain;
 	height:700px;
@@ -1081,6 +1083,7 @@ footer {
 }
 
 @media (max-width:760px) {
+	.responsive-headline {display: none;}
 .header .navbar-nav > li > a {
 	padding: 7px 12px;
 	font-size: 14px;
@@ -1092,6 +1095,7 @@ footer {
 }
 
 @media (max-width: 480px) {
+	.responsive-headline {display: none;}
 .banner-container {
 	background-size: contain;
 	height:500px;
@@ -1157,6 +1161,8 @@ footer {
 }
 
 @media (max-width: 320px) {
+
+.responsive-headline {display: none;}
 .banner-container {
 	background-size: contain;
 }
